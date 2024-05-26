@@ -37,3 +37,6 @@ class ModelAPIView(APIView):
         response = requests.get(url)
         data = response.json()
         return Response(data)
+
+
+
